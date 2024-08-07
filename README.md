@@ -4,7 +4,7 @@
 **Setup Process:**
 Download and install Java JDK and Apache Maven, and set up the home paths.
 Download and install an IDE such as IntelliJ or Eclipse.
-Import the project and add dependencies for Cucumber for Java, TestNG, and Gherkin.
+Clone and import the project and add pugins for Cucumber for Java, TestNG, and Gherkin.
 
 
 **Execution:**
