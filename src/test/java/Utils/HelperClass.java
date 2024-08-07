@@ -14,7 +14,6 @@ public class HelperClass {
 		text = Alpha;
 		return text;
 	}
-
 	public static String generateRandomEmail() {
 		String email = "";
 		String Alpha = RandomStringUtils.randomAlphanumeric(4);

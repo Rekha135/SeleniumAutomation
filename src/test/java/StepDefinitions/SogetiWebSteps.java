@@ -113,10 +113,9 @@ public class SogetiWebSteps{
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
             List<WebElement> links =  wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@id='country-list-id']//ul//li//a")));
-
            for (WebElement link : links) {
                String url = link.getAttribute("href");
-                if (url != null && url.contains("/www.sogeti")) {
+                if (url != null && url.contains("sogeti")) {
                     int responseCode = getResponseCode(url);
                     Assert.assertEquals(responseCode, 200, "Link is broken: " + url);
                     System.out.println("Link is working: " + url);
