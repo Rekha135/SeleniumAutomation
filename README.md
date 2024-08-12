@@ -1,5 +1,5 @@
 **UI and API automation for https://www.sogeti.com**
-FYI- Both assigments are in same repo but different feature files 
+1) FYI- Both assigments are in same repo but different feature files 
 
 
 
