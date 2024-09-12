@@ -1,7 +1,4 @@
 **UI and API automation for https://www.sogeti.com**
-1) FYI- Both assigments are in same repo but different feature files 
-
-
 
 **Setup Process:**
 1) Download and install Java JDK and Apache Maven, and set up the home paths.
