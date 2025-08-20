@@ -17,24 +17,8 @@ The workaround solution for this is: Disable the CAPTCHA in the test environment
 2) API Test Case 2: For the country 'ca' and the postal code 'B2B', the response code is '404' (Page Not Found), while it should be '200' as per the requirement.
 3) For both API test cases, the response time must be 1 second as per the requirement. However, the response time is more than 1 second but less than 2 seconds.
 
--------
 
-# Playable Test Automation
 
-Automation for playable clicking on button “Start Collecting Gold”
 
-## Setup Instructions
-
-1. Install [Node.js](https://nodejs.org/) (>=16.x).
-2. Clone or extract this project in VSD
-3. Run the following commands:
-
-- npm install
-- npx playwright install
-
-## How to run script
-- npx playwright test
-- Run on Chromium only: npx playwright test --project=chromium
-- Run On Mobile Chome: npx playwright test --project="Mobile Chrome"
 
 
