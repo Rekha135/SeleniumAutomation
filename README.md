@@ -19,7 +19,6 @@ The workaround solution for this is: Disable the CAPTCHA in the test environment
 
 -------
 
-
 # Playable Test Automation
 
 Automation for playable clicking on button “Start Collecting Gold”
@@ -30,11 +29,12 @@ Automation for playable clicking on button “Start Collecting Gold”
 2. Clone or extract this project in VSD
 3. Run the following commands:
 
-npm install
-npx playwright install
+- npm install
+- npx playwright install
 
 ## How to run script
 - npx playwright test
 - Run on Chromium only: npx playwright test --project=chromium
 - Run On Mobile Chome: npx playwright test --project="Mobile Chrome"
+
 
